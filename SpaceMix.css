@@ -1,0 +1,172 @@
+
+
+
+/* Header or Logo, change to image designed, and cannot be copied, and set as background with graphic design */ 
+.header { 
+  padding: 10px; 
+  text-align: center; 
+  background: black; 
+  color: white; 
+  font-size: 30px; 
+}
+
+body {
+  font-family: Times, Helvetica, sans-serif;
+
+}
+
+p { 
+  font-family: Arial, sans-serif, Helvetica; 
+  text-align: center; 
+  color: black; 
+  font-size: 16px; 
+  line-height: 2 ;
+}
+
+.p1 {
+  font-family: Arial, sans-serif, Helvetica; 
+  text-align: center; 
+  color: white; 
+  font-size: 1px; 
+  line-height: 2;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white; 
+  text-align: center;
+}
+
+.navbar a {
+  float: center;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 5px 7px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: center; 
+  overflow: visable;
+  display: inline-block;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 5px 7px;
+  background-color: white;
+  font-family: inherit;
+  margin: 0;
+
+}
+
+.dropbtn:hover {
+  background-color: lightgrey;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+/* normally here is the problem */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  text-align: center; 
+  min-width: 200px;
+  min-height: 100px;
+
+}
+
+.dropdown-content a {
+  float: center;
+  color: black;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.left { 
+  margin:0
+  padding:0
+  position: relative;
+  left: 200px;
+}
+
+.right { 
+  margin:0
+  padding:0
+  position:relative;
+  right: 200px;
+}
+
+<!-- if you want a fixed position, use : 
+  position: absolute; 
+  top: 180px; 
+  right: -100 or 100; for left and right 
+-->
+
+
+
+.navbarADAM { 
+  background-color: #e7f5fe;
+  size: 10px;
+  font-size: 20px;
+  font-color: white;
+  text-align: center;
+  align: "center";
+}
+
+.navbarADAM: hover { 
+  background-color: black;
+
+}
+
+
+
+
+
+
+
+<!-- 
+- The overflow property specifies what should happen if content overflows an element's box.
+- The .navbar a will apply to the <a> 
+- z-index = 1 is for above text, -1 is behind text 
+- display: none: useless; inline allows like normal; block allows for spaces every individual content element; inlineblock is same as inline, just more spacing in between lines. 
+- If you put js script at the bottom, it loads last, hence speeding up the speed that the user can see the page. If the code is needed instantly though, then put it in the head.
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
